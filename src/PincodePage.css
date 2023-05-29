@@ -1,0 +1,53 @@
+.home-link{
+    background-color: slategray;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0.5rem;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+h3{
+    padding-left: 2rem;
+}
+.push-left{
+    margin-left: 46rem;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+form{
+    text-align: center;
+    margin: 1rem auto;
+}
+
+input{
+    padding: 0.3rem;
+    border-radius: 5px;
+}
+
+button{
+    padding: 0.3rem;
+    margin-left: 0.5rem;
+    font-weight: bold;
+    background-color: slategray;
+    color: white;
+    border-radius: 5px;
+
+}
