@@ -28,21 +28,26 @@ h3{
     margin-left: 46rem;
 }
 table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
-td,
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
 th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
+  background-color: #f0f0f0;
 }
 
-tr:nth-child(even) {
-    background-color: #dddddd;
+tr:nth-of-type(even) {
+  background-color: #f9f9f9;
 }
+
 
 form{
     text-align: center;

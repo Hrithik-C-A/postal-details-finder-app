@@ -36,7 +36,7 @@ const PincodePage = () => {
     <div>
        <LinkSwitch  linkUrl={'/'} linkCss={'home-link'} linkName={'Home'}/>
       <a href="/" className="home-link">Home</a>
-      <form onSubmit={handleSubmit}>
+      <form style={{marginBottom:'2rem'}} onSubmit={handleSubmit}>
         <input type="number" placeholder="Enter Pincode" onChange={(e) => setPincode(e.target.value)} />
         <button type="submit">Submit</button>
       </form>

@@ -36,7 +36,7 @@ const BranchPage = () => {
     <div>
       {/* <a href="/" className="home-link">Home</a> */}
       <LinkSwitch  linkUrl={'/'} linkCss={'home-link'} linkName={'Home'}/>
-      <form onSubmit={handleSubmit}>
+      <form style={{marginBottom:'2rem'}} onSubmit={handleSubmit}>
         <input type="text" placeholder="Enter Branch Name" onChange={(e) => setBranch(e.target.value)} />
         <button type="submit">Submit</button>
       </form>
