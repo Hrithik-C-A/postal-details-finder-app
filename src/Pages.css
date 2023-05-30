@@ -9,8 +9,20 @@
     top: 1rem;
     left: 1rem;
 }
+.link-switch{
+    background-color: slategray;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0.5rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
 h3{
     padding-left: 2rem;
+    font-size: large;
 }
 .push-left{
     margin-left: 46rem;

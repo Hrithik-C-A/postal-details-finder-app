@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import '../PincodePage.css';
+import '../Pages.css';
+import LinkSwitch from "../components/LinkSwitch";
 
 const PincodePage = () => {
   const [pincode, setPincode] = useState(678641);
@@ -33,11 +34,13 @@ const PincodePage = () => {
 
   return (
     <div>
+       <LinkSwitch  linkUrl={'/'} linkCss={'home-link'} linkName={'Home'}/>
       <a href="/" className="home-link">Home</a>
       <form onSubmit={handleSubmit}>
         <input type="number" placeholder="Enter Pincode" onChange={(e) => setPincode(e.target.value)} />
         <button type="submit">Submit</button>
       </form>
+      <LinkSwitch  linkUrl={'/search/branchname'} linkCss={'link-switch'} linkName={'Switch to BranchName'}/>
       <div>
         {loading ? (
           <h1>Loading...</h1>
