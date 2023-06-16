@@ -47,3 +47,19 @@ img{
     color: white;
     
 }
+@media only screen and (max-width: 600px) {
+    img{
+        height: 250px;
+        width: 390px;
+       
+    }
+    .link{
+        font-weight: 400;
+    }
+    .link-container{
+        width: 18rem;
+    }
+    h1{
+        font-size: medium;
+    }
+}
