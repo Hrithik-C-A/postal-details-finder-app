@@ -22,10 +22,12 @@
 }
 h3{
     padding-left: 2rem;
+    padding-right: 2rem;
     font-size: large;
 }
-.push-left{
-    margin-left: 46rem;
+.status{
+  display: flex;
+  justify-content: space-between;
 }
 table {
   border-collapse: collapse;
@@ -67,4 +69,12 @@ button{
     color: white;
     border-radius: 5px;
 
+}
+@media only screen and (max-width:600px){
+  .table{
+    overflow-x: scroll;
+  }
+  input{
+    margin-top: 4rem;
+  }
 }

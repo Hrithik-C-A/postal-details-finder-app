@@ -48,8 +48,12 @@ const BranchPage = () => {
           data === null || data === undefined || data[0].PostOffice === null ? (
             <h1>No data found</h1>
           ) : (
-          <div>
-          <h3>{data[0].Message} <span className="push-left">Status: {data[0].Status}</span></h3>
+          <>
+          <div className="status">
+          <h3>{data[0].Message}</h3>
+          <h3>Status: {data[0].Status}</h3>
+          </div>
+          <div className="table">
             <table>
               <thead>
                 <tr>
@@ -82,7 +86,8 @@ const BranchPage = () => {
                 ))}
               </tbody>
             </table>
-          </div>
+            </div>
+          </>
           )
         )}
       </div>
