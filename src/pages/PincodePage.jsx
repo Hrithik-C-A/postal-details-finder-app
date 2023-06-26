@@ -43,7 +43,7 @@ const PincodePage = () => {
       <LinkSwitch  linkUrl={'/search/branchname'} linkCss={'link-switch'} linkName={'Switch to BranchName'}/>
       <div>
         {loading ? (
-          <h1>Loading...</h1>
+          <h1 style={{textAlign: 'center'}}>Loading...</h1>
         ) : (
           data === null || data === undefined || data[0].PostOffice === null ? (
             <h1>No data found</h1>

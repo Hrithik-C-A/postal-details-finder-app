@@ -46,7 +46,7 @@ const BranchPage = () => {
           <h1>Loading...</h1>
         ) : (
           data === null || data === undefined || data[0].PostOffice === null ? (
-            <h1>No data found</h1>
+            <h1 style={{textAlign: 'center'}}>No data found</h1>
           ) : (
           <>
           <div className="status">
