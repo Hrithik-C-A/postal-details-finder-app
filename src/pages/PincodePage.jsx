@@ -8,28 +8,24 @@ const PincodePage = () => {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
+  const apiCall = () => {
     axios.get(`https://api.postalpincode.in/pincode/${pincode}`)
-      .then(res => {
-        setData(res.data);
-        setLoading(false);
-      })
-      .catch(err => {
-        console.error(err);
-      });
+    .then(res => {
+      setData(res.data);
+      setLoading(false);
+    })
+    .catch(err => {
+      console.error(err);
+    });
+  }
+
+  useEffect(() => {
+      apiCall();
   }, []);
 
   const handleSubmit = (e)=>{
     e.preventDefault();
-    axios.get(`https://api.postalpincode.in/pincode/${pincode}`)
-      .then(res => {
-        setData(res.data);
-        setLoading(false);
-      })
-      .catch(err => {
-        console.error(err);
-      });
-
+    apiCall();
   }
 
   return (
