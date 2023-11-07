@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import '../Pages.css';
 import LinkSwitch from "../components/LinkSwitch";
+import RedirectToMaps from "../components/RedirectToMaps";
 
 const PincodePage = () => {
   const [pincode, setPincode] = useState(678641);
@@ -64,6 +65,7 @@ const PincodePage = () => {
                   <th>Pincode</th>
                   <th>Region</th>
                   <th>State</th>
+                  <th>Maps</th>
                 </tr>
               </thead>
               <tbody>
@@ -80,6 +82,7 @@ const PincodePage = () => {
                     <td>{result.Pincode}</td>
                     <td>{result.Region}</td>
                     <td>{result.State}</td>
+                    <td><RedirectToMaps query={`${result.BranchType}, ${result.Name}, ${result.Circle}, ${result.Pincode}`}/></td>
                   </tr>
                 ))}
               </tbody>
