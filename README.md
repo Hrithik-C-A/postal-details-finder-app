@@ -5,12 +5,12 @@ A web application that allows users to quickly and easily find postal details by
 
 **Features:**
 
-- Search for postal details by pin code or branch name
-- View a list of results, including the postal code, branch name, address, and contact information
-- Click on a result to be redirected to the post office location on Google Maps
-- Fully mobile-responsive
-- Easy to use
-- Clean, user-friendly interface
+- Search for postal details by pin code or branch name.
+- View a list of results, including the postal code, branch name, address, and contact information.
+- Click on a result to be redirected to the post office location on Google Maps.
+- Fully mobile-responsive.
+- Easy to use.
+- Clean, user-friendly interface.
 
 **Tech Stack:**
 
