@@ -14,9 +14,9 @@ A web application that allows users to quickly and easily find postal details by
 
 **Tech Stack:**
 
-* Front-end: React, Vite
-* Back-end: Indian Postal Code API
-* Maps: Google Maps
+- Front-end: React, Vite
+- Back-end: Indian Postal Code API
+- Maps: Google Maps
 
 
 ## Demo
