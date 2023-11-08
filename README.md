@@ -40,7 +40,7 @@ Go to the project directory
   cd postal-details-finder-app
 ```
 
-Install dependencies
+Install the dependencies
 
 ```bash
   npm install
