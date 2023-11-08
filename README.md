@@ -1,9 +1,22 @@
 
 # Postal Details Finder App
 
-This is a mini-project built with React and uses the Indian postal code API. The app allows users to quickly and easily find postal details by searching through pin code or branch name. It also includes a map view feature that redirects users directly to the post office location on Google Maps.
+A web application that allows users to quickly and easily find postal details by searching through pin code or branch name.
 
-The app is fully mobile-responsive, easy to use and has a clean, user-friendly interface. Simply enter your desired search criteria and the app will return a list of results, including the postal code, branch name, address, and contact information.
+**Features:**
+
+- Search for postal details by pin code or branch name
+- View a list of results, including the postal code, branch name, address, and contact information
+- Click on a result to be redirected to the post office location on Google Maps
+- Fully mobile-responsive
+- Easy to use
+- Clean, user-friendly interface
+
+**Tech Stack:**
+
+* Front-end: React, Vite
+* Back-end: Indian Postal Code API
+* Maps: Google Maps
 
 
 ## Demo
